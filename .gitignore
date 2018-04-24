@@ -1,0 +1,14 @@
+
+/coverage/
+*.ipr
+*.iws
+*.iml
+/.idea/
+.DS_Store
+/routes/apidoc.*
+*.log
+/test/apidoc.json
+/doc/*.bak
+*-compiled.js
+*-compiled.js.map
+/public/upload/

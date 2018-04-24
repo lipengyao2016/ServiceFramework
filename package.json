@@ -1,0 +1,36 @@
+{
+  "name": "ServiceFramework",
+  "version": "1.0.0",
+  "description": "common modules",
+  "main": "index.js",
+  "scripts": {
+    "coveralls": "npm run lint && npm run lcov && (cat coverage/lcov.info | coveralls || exit 0)",
+    "lcov": "istanbul cover _mocha --report lcovonly -- -R spec",
+    "lint": "jshint index.js lib/*.js test/*.js",
+    "test": "mocha && npm run lint"
+  },
+  "author": "lipengyao",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.icarcloud.net:iCarCloud/BCS/BCPlatform/Common/CommonUtils.git"
+  },
+  "dependencies": {
+    "assert": "^1.4.1",
+    "crypto": "0.0.3",
+    "http": "0.0.0",
+    "kafka-node": "^2.2.0",
+    "lodash": "^4.17.2",
+    "mocha": "1.18.2",
+    "moment": "^2.17.0",
+    "node-uuid": "^1.4.7",
+    "querystring": "^0.2.0",
+    "request": "^2.79.0",
+    "should": "3.3.0",
+    "url": "^0.11.0"
+  },
+  "keywords": [
+    "CommonUtils",
+    "node"
+  ]
+}
