@@ -1,5 +1,5 @@
 {
-  "name": "ServiceFramework",
+  "name": "service-framework",
   "version": "1.0.0",
   "description": "common modules",
   "main": "index.js",
@@ -11,7 +11,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lipengyao2016/ServiceFramework"
+    "url": "https://github.com/lipengyao2016/service-framework.git"
   },
   "dependencies": {
     "assert": "^1.4.1",
@@ -28,7 +28,7 @@
     "url": "^0.11.0"
   },
   "keywords": [
-    "ServiceFramework",
+    "service-framework",
     "node"
   ]
 }
