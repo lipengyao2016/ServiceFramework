@@ -1,6 +1,6 @@
 {
   "name": "componet-service-framework",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "common modules",
   "main": "index.js",
   "scripts": {
@@ -26,6 +26,9 @@
   },
   "keywords": [
     "componet-service-framework",
-    "node"
+    "lipengyao",
+    "lipy",
+    "componet-service",
+    "service-framework"
   ]
 }
