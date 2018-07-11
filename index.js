@@ -12,11 +12,12 @@ module.exports =
 
     cacheAble      :    require('./lib/common/cacheAble'),
 
-    kafkaProducer      :    require('./lib/common/kafkaProducer'),
-    kafkaConsumer     :    require('./lib/common/kafkaConsumer'),
 
     //proxy目录。
     batchQueryUtils   :    require('./lib/proxy/batchQueryUtils'),
     distritubeExtraTranction   :    require('./lib/proxy/distritubeExtraTranction'),
+    baseProxyTranction   :    require('./lib/proxy/baseProxyTranction'),
+    baseProxy   :    require('./lib/proxy/baseProxy'),
+
 
 };
