@@ -8,9 +8,10 @@ module.exports =
 {
     //common目录。
     utils      :    require('./lib/common/utils'),
-    log        :    require('./lib/common/log'),
+    //log        :    require('./lib/common/log'),
 
     cacheAble      :    require('./lib/common/cacheAble'),
+    redisLock      :    require('./lib/common/redisLock'),
 
 
     //proxy目录。
